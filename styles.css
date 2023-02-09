@@ -1,0 +1,18 @@
+.changeHeightClass {
+    height: 50px;
+    width: 50px;
+    margin: 10px 0 10px 50px;
+    border-radius: 25px;
+}
+#changeHeightClass:hover {
+    opacity: 0.95;
+}
+#increaseHeight {
+    background-color: green;
+}
+#decreaseHeight {
+    background-color: red;
+}
+#snorlax {
+    height: 100px;
+}

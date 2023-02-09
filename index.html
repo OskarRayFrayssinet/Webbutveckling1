@@ -4,19 +4,17 @@
         <title>Webpage with Pictures</title>
         <meta charset="UTF-8">
         <meta name="author" content="Oskar Ray-Frayssinet">
+        <link rel="stylesheet" href="styles.css"> <!-- #1 sätt att ange CSS-->
+        <!-- #2 sätt att ange CSS (under denna kommentar) -->
+        <style>
+            /* Här skriver jag CSS-kod */
+        </style>
     </head>
     <body>
-        <!-- 
-            IMG-tag ska ha två attributer:
-            SRC som står för "source" som berättar vilken fil som ska
-            användas och vart den finns.
-
-            ALT som står för "alternate" och är en text som visas
-            när bilden inte kan visas.
-        -->
-        <img src="" alt="">
-        <script>
-
-        </script>
+        <div id="increaseHeight" class="changeHeightClass" onclick="increaseHeight()"></div>
+        <div id="decreaseHeight" class="changeHeightClass" onclick="decreaseHeight()"></div>
+        <!-- #3 sätt att ange CSS (skriver "inline" innanför img-tagens attributes)-->
+        <img id="snorlax" src="Bilder/snorlax.jpg"/>
+        <script src="imageGenerator.js"></script>
     </body>
 </html>
